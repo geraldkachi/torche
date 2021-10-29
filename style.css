@@ -1,0 +1,163 @@
+
+html, body{
+  overflow-x: hidden;
+}
+body{
+  font-family: 'Poppins';
+}
+
+#intro {
+  background-image: url("./images/finger\ 2.png");
+  min-height: auto;
+}
+
+.girly {
+  margin-top: 30px;
+}
+
+.lock {
+  margin-left: -20px;
+  margin-top: 70px;
+  left: 20;
+  border-width: 10px;
+}
+.card {
+  margin-left: 200px;
+  margin-top: 70px;
+}
+
+@media (max-width: 976px) {
+  .firstphone {
+    margin-right: unset;
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .lock {
+    margin-top: -60px;
+    margin-left: 50px;
+  }
+  #intro {
+    background-image: url("./images/finger\ 2.png");
+    height: 80vh;
+  }
+  
+  .iphonehub {
+    margin-left: 40px;
+  }
+  .plug {
+    display: none;
+    margin-top: unset;
+  }
+  .bluebtn {
+    margin-top: unset;
+  }
+  .cardscale {
+    /* transform:scale(.02); */
+    /* width: 0%; */ 
+  }
+  .navbar .show {
+    background-color: rgba(9, 135, 62, 0.1);
+    box-shadow: 1px 2px 10px -5px;
+  }
+
+}
+.navbar-toggler-icon {
+  color: #09863E !important;
+}
+.collapse li a {
+  text-align: left !important;
+}
+.navbar .show {
+  /* background-color: rgba(9, 135, 62, 0.1);
+  box-shadow: 1px 2px 10px -5px; */  
+}
+.iphonehub {
+  transform: scale(1.3);
+}
+
+.fingerscale {
+  transform: scale(.9);
+}
+.caustion {
+  transform: scale(1.5);
+}
+
+.bluebtn {
+  margin-top: unset;
+}
+
+.bluebtn {
+  margin-top: 30px;
+  border-radius: 20px 10px;
+  background-color: #6680de;
+}
+
+
+.firstphone {
+  /* margin-right: 400px; */
+  transform: scale(1.4);
+  /* min-height: max-content;  */
+  width: 300px;
+  margin-top: -8em;
+}
+
+.plug {
+  margin-top: 370px;
+  left: 280px;
+}
+
+
+
+.logcreate{
+  border-radius: 20px 10px;
+  background-color: #6680de;
+}
+
+.loginbtn {
+  border-radius: 15px 10px;
+  padding:10px 15px;
+  border: 4px #09863E solid;
+}
+
+.neverbtn {
+  /* border-radius: 30px 10px; */
+  border-radius: 23px 27px 16px 25px;
+  background-color: #6680de;
+  color: #fff;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.cirlenum{
+  border: 1px solid #09863E; border-radius: 50%; min-height: 80px; width: 80px;
+}
+.numround{
+  color:#09863E; font-size: 28px;
+}
+
+/* content: "\2022";  */
+/* Add content: \2022 is the CSS Code/unicode for a bullet */
+.bullet li::before {
+  /* content: "• "; */
+  color: #09863e; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  /* width: 3em;  */
+  /* Also needed for space (tweak if needed) */
+  height: 10px;
+  /* margin-left: -1em;  */
+  /* Also needed for space (tweak if needed) */
+  /* margin-right: 30px; */
+}
+.bullet li{
+  /* padding-left: 10px; */
+}
+.bullet li{
+  padding-top: 20px;
+  list-style-image: url('./images/Ellipse\ 9.png');
+  /* padding: auto; */
+  /* transform: scale(1.3); */
+  /* list-style: none; */
+}
+
